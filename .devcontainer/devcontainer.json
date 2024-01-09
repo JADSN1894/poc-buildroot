@@ -1,5 +1,5 @@
 {
-    "name": "poc-poc_buildroot",
+    "name": "poc_buildroot",
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
     "features": {
         "ghcr.io/devcontainers/features/github-cli:1": {}

@@ -15,9 +15,9 @@
 1. `make qemu_x86_64_defconfig`
 1. `make -j$(echo "$(nproc)-1" | bc)`
 
-### 3. Execute qemu
-1. `find ./ -name '*start-qemu.sh*'`
+### 3. Execute qemu **
+1. `find ./ -name '*start-qemu.sh*'` *Check `start-qemu.sh` was generated*
 1. `./buildroot-2023.11/output/images/start-qemu.sh`
 1. Login: `root`
-1. Commands available: `help`
+1. Check commands available: `help`
 1. Try: `uname -a`
