@@ -1,10 +1,9 @@
 {
-	"name": "poc-poc_buildroot",
-	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
-    "postCreateCommand": "sh .devcontainer/install_tooling.sh",
-	"features": {
-		"ghcr.io/devcontainers/features/github-cli:1": {}
-	},
+    "name": "poc-poc_buildroot",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+    "features": {
+        "ghcr.io/devcontainers/features/github-cli:1": {}
+    },
     "customizations": {
         "vscode": {
             "extensions": [
