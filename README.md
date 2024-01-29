@@ -8,8 +8,8 @@
 `make build`
 
 ### Or
+1. `sudo apt-get install build-essential file cpio bc wget unzip`
 1. `wget -c https://buildroot.org/downloads/buildroot-2023.11.tar.gz`
-1. `sudo apt-get install build-essential file cpio bc`
 1. `tar -xvf buildroot-2023.11.tar.gz `
 1. `cd buildroot-2023.11`
 1. `make qemu_x86_64_defconfig`
