@@ -13,6 +13,7 @@
 1. `tar -xvf buildroot-2023.11.tar.gz `
 1. `cd buildroot-2023.11`
 1. `make qemu_x86_64_defconfig`
+1. `su - debian`
 1. `make -j$(echo "$(nproc)-1" | bc)`
 
 ### 3. Execute qemu
